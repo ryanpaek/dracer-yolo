@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['green_light', 'left_direction', 'red_light', 'right_dierection']
+
+roboflow:
+  workspace: seunghoons-workspace-kdhat
+  project: my-first-project-tmo1a
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/seunghoons-workspace-kdhat/my-first-project-tmo1a/dataset/2
